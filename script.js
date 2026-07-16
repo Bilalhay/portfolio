@@ -1,15 +1,17 @@
 const skills = [
   ['u1','languages','c++',5],
-  ['u2','languages','python',4],
-  ['u3','languages','javascript',3],
-  ['u4','security','digital logic design',4],
-  ['u5','security','network fundamentals',3],
-  ['r1','tools','sqlite',4],
-  ['r2','tools','tkinter',4],
-  ['r3','tools','git / github',4],
-  ['r4','hardware','esp32 / arduino',4],
-  ['r5','hardware','kicad',3],
-  ['c1','office','ms word (specialist cert)',5],
+  ['u2','languages','javascript',3],
+  ['u3','languages','c (arduino / embedded)',4],
+  ['c1','core concepts','file handling & i/o streams',4],
+  ['c2','core concepts','data structures fundamentals',3],
+  ['c3','core concepts','combinational & sequential circuit design',4],
+  ['c4','core concepts','state machine design',4],
+  ['r1','hardware','esp32 microcontroller programming',4],
+  ['r2','hardware','digital logic circuit design',4],
+  ['r3','hardware','basic pcb / schematic analysis',3],
+  ['t1','tools','arduino ide',4],
+  ['t2','tools','git / github',4],
+  ['t3','tools','ms office (word specialist cert)',5],
 ];
 
 const bomBody = document.getElementById('bom-body');
@@ -28,27 +30,21 @@ skills.forEach(([ref, cat, item, level]) => {
 const projects = [
   {
     no: 'sheet 04.1',
-    title: 'quality pipes — invoicing & inventory system',
-    desc: 'local desktop app for a scaffolding pipe supply business — inventory, invoicing, rent billing, expenditure tracking and analytics, with pixel-accurate pdf invoice generation.',
-    tags: ['python', 'tkinter', 'sqlite', 'pdf generation'],
+    title: 'bise lahore result gazette search tool',
+    desc: 'c++ file-handling program that parses the official BISE Lahore 11th class result gazette (2024) into a structured, searchable format. processes roughly 94,000 student records for fast lookup by name or roll number, instead of manual page-by-page searching.',
+    tags: ['c++', 'ifstream / ofstream', 'file handling'],
   },
   {
     no: 'sheet 04.2',
-    title: 'bise lahore gazette search tool',
-    desc: 'fast lookup tool for searching across 94,000+ gazette records, built for speed and reliability over a large dataset.',
-    tags: ['c++'],
+    title: 'esp32 invoice generator & local web server',
+    desc: 'esp32-based system that generates invoices and serves an interactive web page over the local wifi network for Quality Pipe Store, a family construction-supply business — replacing manual handwritten invoicing with a browser-accessible digital workflow.',
+    tags: ['esp32', 'embedded c++', 'arduino', 'local web server'],
   },
   {
     no: 'sheet 04.3',
-    title: 'esp32 invoice web server',
-    desc: 'embedded web server on esp32 for generating and serving invoices, including full wiring schematic and library documentation.',
-    tags: ['esp32', 'arduino', 'embedded'],
-  },
-  {
-    no: 'sheet 04.4',
-    title: 'bank management system',
-    desc: 'c++ lab project simulating core banking operations — accounts, transactions and file-based record storage.',
-    tags: ['c++', 'file handling'],
+    title: 'bank management system simulation',
+    desc: 'c++ simulation of core atm and bank management operations, including account handling and transaction processing. built using arrays, pointers, dynamic memory allocation, function overloading and file handling to persist data between sessions.',
+    tags: ['c++', 'pointers', 'file handling'],
   },
 ];
 
