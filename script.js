@@ -2,12 +2,13 @@ const skills = [
   ['u1','languages','c++',5],
   ['u2','languages','c (arduino / embedded)',4],
   ['c1','core concepts','file handling & i/o streams',4],
+  ['c4','core concepts','state machine design',4],
   ['r1','hardware','esp32 microcontroller programming',4],
   ['r2','hardware','digital logic circuit design',4],
   ['r4','hardware','general hardware tinkering',5],
   ['t1','tools','arduino ide',4],
   ['t2','tools','git / github',4],
-  ['t3','tools','ms office (word specialist cert)',5],
+  ['t3','tools','ms office (word specialist cert)',3],
 ];
 
 const bomBody = document.getElementById('bom-body');
