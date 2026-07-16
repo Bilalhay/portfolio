@@ -1,7 +1,6 @@
 const skills = [
   ['u1','languages','c++',5],
-  ['u2','languages','javascript',3],
-  ['u3','languages','c (arduino / embedded)',4],
+  ['u2','languages','c (arduino / embedded)',4],
   ['c1','core concepts','file handling & i/o streams',4],
   ['c2','core concepts','data structures fundamentals',3],
   ['c3','core concepts','combinational & sequential circuit design',4],
@@ -9,6 +8,7 @@ const skills = [
   ['r1','hardware','esp32 microcontroller programming',4],
   ['r2','hardware','digital logic circuit design',4],
   ['r3','hardware','basic pcb / schematic analysis',3],
+  ['r4','hardware','general hardware tinkering',5],
   ['t1','tools','arduino ide',4],
   ['t2','tools','git / github',4],
   ['t3','tools','ms office (word specialist cert)',5],
